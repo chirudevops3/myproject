@@ -11,6 +11,15 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.8.0</version>
+          <configuration>
+                <fork>true</fork>
+                <executable>/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64/jre/bin/java</executable>
+          </configuration>
+        </plugin>
+
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
